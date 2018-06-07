@@ -32,3 +32,37 @@ C:\Users\antonio.junior\documents\visual studio 2015\Projects\SistemaVenda\Siste
 C:\Users\antonio.junior\documents\visual studio 2015\Projects\SistemaVenda\SistemaVenda\obj\Debug\SistemaVenda.frm_rel_produtos.resources
 C:\Users\antonio.junior\documents\visual studio 2015\Projects\SistemaVenda\SistemaVenda\obj\Debug\SistemaVenda.frm_usuario.resources
 C:\Users\antonio.junior\documents\visual studio 2015\Projects\SistemaVenda\SistemaVenda\obj\Debug\SistemaVenda.frm_cliente.resources
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\bin\Debug\SistemaVenda.exe.config
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\obj\Debug\SistemaVenda.exe
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\obj\Debug\SistemaVenda.pdb
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\bin\Debug\SistemaVenda.exe
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\bin\Debug\SistemaVenda.pdb
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\bin\Debug\Sistema.DAL.dll
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\bin\Debug\Sistema.DAL.pdb
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\obj\Debug\SistemaVenda.csprojResolveAssemblyReference.cache
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\obj\Debug\SistemaVenda.frm_categorias.resources
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\obj\Debug\SistemaVenda.frm_cliente.resources
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\obj\Debug\SistemaVenda.frm_consultaProdutos.resources
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\obj\Debug\SistemaVenda.frm_login.resources
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\obj\Debug\SistemaVenda.frm_menu.resources
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\obj\Debug\SistemaVenda.frm_produtos.resources
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\obj\Debug\SistemaVenda.frm_rel_produtos.resources
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\obj\Debug\SistemaVenda.frm_usuario.resources
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\obj\Debug\SistemaVenda.frm_venda.resources
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\obj\Debug\SistemaVenda.Properties.Resources.resources
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\obj\Debug\SistemaVenda.csproj.GenerateResource.Cache
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\obj\Debug\RdlCompile.cache
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\SistemaVenda\obj\Debug\RdlCompile.compiled

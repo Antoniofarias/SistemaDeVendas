@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_rel_produtos));
             this.tb_produtoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.DS_relatorios_produtos = new SistemaVenda.DS_relatorios_produtos();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
@@ -81,6 +82,7 @@
             this.ClientSize = new System.Drawing.Size(519, 450);
             this.Controls.Add(this.btn_voltar);
             this.Controls.Add(this.reportViewer1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_rel_produtos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Relatório de Produtos";

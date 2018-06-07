@@ -146,6 +146,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Relatórios\rel_produtos.rdlc" />
     <None Include="DS_relatorios_produtos.xsc">
@@ -186,6 +187,78 @@
       <Project>{f5df9be7-1df9-4e42-9384-beb3c83e1464}</Project>
       <Name>Sistema.DAL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundoLogin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo menu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo menu2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cadastro produtos 40 x 40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cadastro produtos 40 x 401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image0021.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\faturas 40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuarios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuarios 40x40.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuarios2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\couple64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cadastro clientes 40 x 40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imaguser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consultas 40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relatorios 40 x 40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sair 40 x 35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrada produtos 40x40.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shopping-basket-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shopping-basket-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money 40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuarios 40x40.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

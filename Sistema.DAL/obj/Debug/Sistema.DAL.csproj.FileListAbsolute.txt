@@ -4,3 +4,9 @@ c:\users\antonio.junior\documents\visual studio 2015\Projects\SistemaVenda\Siste
 c:\users\antonio.junior\documents\visual studio 2015\Projects\SistemaVenda\Sistema.DAL\obj\Debug\Sistema.DAL.dll
 c:\users\antonio.junior\documents\visual studio 2015\Projects\SistemaVenda\Sistema.DAL\obj\Debug\Sistema.DAL.pdb
 C:\Users\antonio.junior\documents\visual studio 2015\Projects\SistemaVenda\Sistema.DAL\obj\Debug\Sistema.DAL.csprojResolveAssemblyReference.cache
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\Sistema.DAL\bin\Debug\Sistema.DAL.dll.config
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\Sistema.DAL\bin\Debug\Sistema.DAL.dll
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\Sistema.DAL\bin\Debug\Sistema.DAL.pdb
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\Sistema.DAL\obj\Debug\Sistema.DAL.csprojResolveAssemblyReference.cache
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\Sistema.DAL\obj\Debug\Sistema.DAL.dll
+C:\Users\antonio.junior\Source\Repos\SistemaDeVendas\Sistema.DAL\obj\Debug\Sistema.DAL.pdb

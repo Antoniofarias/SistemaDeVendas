@@ -30,10 +30,12 @@
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_produtos));
             this.lbl_descricao = new System.Windows.Forms.Label();
             this.lbl_valor = new System.Windows.Forms.Label();
             this.lbl_categoria = new System.Windows.Forms.Label();
             this.txt_descricao = new System.Windows.Forms.TextBox();
+            this.produtoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.txt_valor = new System.Windows.Forms.TextBox();
             this.CB_categoria = new System.Windows.Forms.ComboBox();
             this.categoriaBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -42,17 +44,16 @@
             this.btn_excluir = new System.Windows.Forms.Button();
             this.btn_cancelar = new System.Windows.Forms.Button();
             this.DGV_cad_prod = new System.Windows.Forms.DataGridView();
-            this.btn_voltar = new System.Windows.Forms.Button();
-            this.itensVendasBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.produtoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.codigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descricaoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.valorDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.categoriaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btn_voltar = new System.Windows.Forms.Button();
+            this.itensVendasBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoriaBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_cad_prod)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.itensVendasBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_descricao
@@ -89,6 +90,10 @@
             this.txt_descricao.Name = "txt_descricao";
             this.txt_descricao.Size = new System.Drawing.Size(129, 20);
             this.txt_descricao.TabIndex = 3;
+            // 
+            // produtoBindingSource
+            // 
+            this.produtoBindingSource.DataSource = typeof(Sistema.DAL.Produto);
             // 
             // txt_valor
             // 
@@ -173,24 +178,6 @@
             this.DGV_cad_prod.TabIndex = 10;
             this.DGV_cad_prod.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.DGV_cad_prod_CellFormatting);
             // 
-            // btn_voltar
-            // 
-            this.btn_voltar.Location = new System.Drawing.Point(443, 69);
-            this.btn_voltar.Name = "btn_voltar";
-            this.btn_voltar.Size = new System.Drawing.Size(75, 23);
-            this.btn_voltar.TabIndex = 11;
-            this.btn_voltar.Text = "Voltar";
-            this.btn_voltar.UseVisualStyleBackColor = true;
-            this.btn_voltar.Click += new System.EventHandler(this.btn_voltar_Click);
-            // 
-            // itensVendasBindingSource
-            // 
-            this.itensVendasBindingSource.DataMember = "ItensVendas";
-            // 
-            // produtoBindingSource
-            // 
-            this.produtoBindingSource.DataSource = typeof(Sistema.DAL.Produto);
-            // 
             // codigoDataGridViewTextBoxColumn
             // 
             this.codigoDataGridViewTextBoxColumn.DataPropertyName = "Codigo";
@@ -226,6 +213,20 @@
             this.categoriaDataGridViewTextBoxColumn.ReadOnly = true;
             this.categoriaDataGridViewTextBoxColumn.Width = 120;
             // 
+            // btn_voltar
+            // 
+            this.btn_voltar.Location = new System.Drawing.Point(443, 69);
+            this.btn_voltar.Name = "btn_voltar";
+            this.btn_voltar.Size = new System.Drawing.Size(75, 23);
+            this.btn_voltar.TabIndex = 11;
+            this.btn_voltar.Text = "Voltar";
+            this.btn_voltar.UseVisualStyleBackColor = true;
+            this.btn_voltar.Click += new System.EventHandler(this.btn_voltar_Click);
+            // 
+            // itensVendasBindingSource
+            // 
+            this.itensVendasBindingSource.DataMember = "ItensVendas";
+            // 
             // frm_produtos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -243,14 +244,15 @@
             this.Controls.Add(this.lbl_categoria);
             this.Controls.Add(this.lbl_valor);
             this.Controls.Add(this.lbl_descricao);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_produtos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Produtos";
             this.Load += new System.EventHandler(this.frm_produtos_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoriaBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_cad_prod)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.itensVendasBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -38,6 +38,7 @@
             System.Windows.Forms.Label lbl_dataVencimento;
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_venda));
             this.vendaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.CB_Clientes = new System.Windows.Forms.ComboBox();
             this.pessoaBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -483,6 +484,7 @@
             this.Controls.Add(this.btn_NovaVenda);
             this.Controls.Add(codigoPessoaLabel);
             this.Controls.Add(this.CB_Clientes);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_venda";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Venda";

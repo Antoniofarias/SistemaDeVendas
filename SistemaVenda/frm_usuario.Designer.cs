@@ -30,13 +30,14 @@
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_usuario));
             this.btn_cancelar = new System.Windows.Forms.Button();
             this.btn_excluir = new System.Windows.Forms.Button();
             this.btn_cadastrar = new System.Windows.Forms.Button();
             this.btn_novo = new System.Windows.Forms.Button();
             this.CB_tipo = new System.Windows.Forms.ComboBox();
-            this.tipoUsuarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.usuariosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tipoUsuarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.txt_senha = new System.Windows.Forms.TextBox();
             this.txt_usuario = new System.Windows.Forms.TextBox();
             this.lbl_tipo = new System.Windows.Forms.Label();
@@ -48,8 +49,8 @@
             this.senhaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tipoUsuarioDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btn_voltar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.tipoUsuarioBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.usuariosBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tipoUsuarioBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_cad_usuario)).BeginInit();
             this.SuspendLayout();
             // 
@@ -105,13 +106,13 @@
             this.CB_tipo.TabIndex = 16;
             this.CB_tipo.ValueMember = "CodigoUsuario";
             // 
-            // tipoUsuarioBindingSource
-            // 
-            this.tipoUsuarioBindingSource.DataSource = typeof(Sistema.DAL.TipoUsuario);
-            // 
             // usuariosBindingSource
             // 
             this.usuariosBindingSource.DataSource = typeof(Sistema.DAL.Usuarios);
+            // 
+            // tipoUsuarioBindingSource
+            // 
+            this.tipoUsuarioBindingSource.DataSource = typeof(Sistema.DAL.TipoUsuario);
             // 
             // txt_senha
             // 
@@ -237,12 +238,13 @@
             this.Controls.Add(this.lbl_tipo);
             this.Controls.Add(this.lbl_senha);
             this.Controls.Add(this.lbl_nome);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_usuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Usuário";
             this.Load += new System.EventHandler(this.frm_usuario_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.tipoUsuarioBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.usuariosBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tipoUsuarioBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_cad_usuario)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
