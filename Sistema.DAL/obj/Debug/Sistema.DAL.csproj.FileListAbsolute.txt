@@ -1,0 +1,6 @@
+c:\users\antonio.junior\documents\visual studio 2015\Projects\SistemaVenda\Sistema.DAL\bin\Debug\Sistema.DAL.dll.config
+c:\users\antonio.junior\documents\visual studio 2015\Projects\SistemaVenda\Sistema.DAL\bin\Debug\Sistema.DAL.dll
+c:\users\antonio.junior\documents\visual studio 2015\Projects\SistemaVenda\Sistema.DAL\bin\Debug\Sistema.DAL.pdb
+c:\users\antonio.junior\documents\visual studio 2015\Projects\SistemaVenda\Sistema.DAL\obj\Debug\Sistema.DAL.dll
+c:\users\antonio.junior\documents\visual studio 2015\Projects\SistemaVenda\Sistema.DAL\obj\Debug\Sistema.DAL.pdb
+C:\Users\antonio.junior\documents\visual studio 2015\Projects\SistemaVenda\Sistema.DAL\obj\Debug\Sistema.DAL.csprojResolveAssemblyReference.cache
